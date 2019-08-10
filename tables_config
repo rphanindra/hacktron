@@ -1,0 +1,4 @@
+Product|product_id,product_name,product_type,product_version,product_price
+Customer|customer_id,customer_first_name,customer_last_name,phone_number
+Sales|transaction_id,customer_id,product_id,timestamp,total_amount,total_quantity
+Refund|refund_id,original_transactional_id,customer_id,product_id,timestamp,refund_amount,refund_quantity
